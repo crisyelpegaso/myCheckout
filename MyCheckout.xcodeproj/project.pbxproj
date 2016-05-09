@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B0846A1CDD692300C157BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B084691CDD692300C157BF /* AppDelegate.swift */; };
+		76B0846C1CDD692300C157BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0846B1CDD692300C157BF /* ViewController.swift */; };
+		76B0846F1CDD692300C157BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B0846D1CDD692300C157BF /* Main.storyboard */; };
+		76B084711CDD692300C157BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B084701CDD692300C157BF /* Assets.xcassets */; };
+		76B084741CDD692300C157BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B084721CDD692300C157BF /* LaunchScreen.storyboard */; };
+		76B0847F1CDD692300C157BF /* MyCheckoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0847E1CDD692300C157BF /* MyCheckoutTests.swift */; };
+		76B0848A1CDD692300C157BF /* MyCheckoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B084891CDD692300C157BF /* MyCheckoutUITests.swift */; };
+		76B084D61CDEB0F300C157BF /* MercadoPagoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B084D51CDEB0F300C157BF /* MercadoPagoSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B0847B1CDD692300C157BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B0845E1CDD692300C157BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B084651CDD692300C157BF;
+			remoteInfo = MyCheckout;
+		};
+		76B084861CDD692300C157BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B0845E1CDD692300C157BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B084651CDD692300C157BF;
+			remoteInfo = MyCheckout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76B084CF1CDEAEFD00C157BF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		76B084661CDD692300C157BF /* MyCheckout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCheckout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B084691CDD692300C157BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76B0846B1CDD692300C157BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76B0846E1CDD692300C157BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76B084701CDD692300C157BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76B084731CDD692300C157BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76B084751CDD692300C157BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B0847A1CDD692300C157BF /* MyCheckoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCheckoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B0847E1CDD692300C157BF /* MyCheckoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCheckoutTests.swift; sourceTree = "<group>"; };
+		76B084801CDD692300C157BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B084851CDD692300C157BF /* MyCheckoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCheckoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B084891CDD692300C157BF /* MyCheckoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCheckoutUITests.swift; sourceTree = "<group>"; };
+		76B0848B1CDD692300C157BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B084D51CDEB0F300C157BF /* MercadoPagoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MercadoPagoSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76B084631CDD692300C157BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B084D61CDEB0F300C157BF /* MercadoPagoSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B084771CDD692300C157BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B084821CDD692300C157BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B0845D1CDD692300C157BF = {
+			isa = PBXGroup;
+			children = (
+				76B084D51CDEB0F300C157BF /* MercadoPagoSDK.framework */,
+				76B084681CDD692300C157BF /* MyCheckout */,
+				76B0847D1CDD692300C157BF /* MyCheckoutTests */,
+				76B084881CDD692300C157BF /* MyCheckoutUITests */,
+				76B084671CDD692300C157BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76B084671CDD692300C157BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B084661CDD692300C157BF /* MyCheckout.app */,
+				76B0847A1CDD692300C157BF /* MyCheckoutTests.xctest */,
+				76B084851CDD692300C157BF /* MyCheckoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B084681CDD692300C157BF /* MyCheckout */ = {
+			isa = PBXGroup;
+			children = (
+				76B084691CDD692300C157BF /* AppDelegate.swift */,
+				76B0846B1CDD692300C157BF /* ViewController.swift */,
+				76B0846D1CDD692300C157BF /* Main.storyboard */,
+				76B084701CDD692300C157BF /* Assets.xcassets */,
+				76B084721CDD692300C157BF /* LaunchScreen.storyboard */,
+				76B084751CDD692300C157BF /* Info.plist */,
+			);
+			path = MyCheckout;
+			sourceTree = "<group>";
+		};
+		76B0847D1CDD692300C157BF /* MyCheckoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				76B0847E1CDD692300C157BF /* MyCheckoutTests.swift */,
+				76B084801CDD692300C157BF /* Info.plist */,
+			);
+			path = MyCheckoutTests;
+			sourceTree = "<group>";
+		};
+		76B084881CDD692300C157BF /* MyCheckoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76B084891CDD692300C157BF /* MyCheckoutUITests.swift */,
+				76B0848B1CDD692300C157BF /* Info.plist */,
+			);
+			path = MyCheckoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76B084651CDD692300C157BF /* MyCheckout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B0848E1CDD692300C157BF /* Build configuration list for PBXNativeTarget "MyCheckout" */;
+			buildPhases = (
+				76B084621CDD692300C157BF /* Sources */,
+				76B084631CDD692300C157BF /* Frameworks */,
+				76B084641CDD692300C157BF /* Resources */,
+				76B084CF1CDEAEFD00C157BF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCheckout;
+			productName = MyCheckout;
+			productReference = 76B084661CDD692300C157BF /* MyCheckout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76B084791CDD692300C157BF /* MyCheckoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B084911CDD692300C157BF /* Build configuration list for PBXNativeTarget "MyCheckoutTests" */;
+			buildPhases = (
+				76B084761CDD692300C157BF /* Sources */,
+				76B084771CDD692300C157BF /* Frameworks */,
+				76B084781CDD692300C157BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B0847C1CDD692300C157BF /* PBXTargetDependency */,
+			);
+			name = MyCheckoutTests;
+			productName = MyCheckoutTests;
+			productReference = 76B0847A1CDD692300C157BF /* MyCheckoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76B084841CDD692300C157BF /* MyCheckoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B084941CDD692300C157BF /* Build configuration list for PBXNativeTarget "MyCheckoutUITests" */;
+			buildPhases = (
+				76B084811CDD692300C157BF /* Sources */,
+				76B084821CDD692300C157BF /* Frameworks */,
+				76B084831CDD692300C157BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B084871CDD692300C157BF /* PBXTargetDependency */,
+			);
+			name = MyCheckoutUITests;
+			productName = MyCheckoutUITests;
+			productReference = 76B084851CDD692300C157BF /* MyCheckoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76B0845E1CDD692300C157BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MercadoPago;
+				TargetAttributes = {
+					76B084651CDD692300C157BF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					76B084791CDD692300C157BF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 76B084651CDD692300C157BF;
+					};
+					76B084841CDD692300C157BF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 76B084651CDD692300C157BF;
+					};
+				};
+			};
+			buildConfigurationList = 76B084611CDD692300C157BF /* Build configuration list for PBXProject "MyCheckout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76B0845D1CDD692300C157BF;
+			productRefGroup = 76B084671CDD692300C157BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76B084651CDD692300C157BF /* MyCheckout */,
+				76B084791CDD692300C157BF /* MyCheckoutTests */,
+				76B084841CDD692300C157BF /* MyCheckoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76B084641CDD692300C157BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B084741CDD692300C157BF /* LaunchScreen.storyboard in Resources */,
+				76B084711CDD692300C157BF /* Assets.xcassets in Resources */,
+				76B0846F1CDD692300C157BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B084781CDD692300C157BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B084831CDD692300C157BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B084621CDD692300C157BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B0846C1CDD692300C157BF /* ViewController.swift in Sources */,
+				76B0846A1CDD692300C157BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B084761CDD692300C157BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B0847F1CDD692300C157BF /* MyCheckoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B084811CDD692300C157BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B0848A1CDD692300C157BF /* MyCheckoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76B0847C1CDD692300C157BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B084651CDD692300C157BF /* MyCheckout */;
+			targetProxy = 76B0847B1CDD692300C157BF /* PBXContainerItemProxy */;
+		};
+		76B084871CDD692300C157BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B084651CDD692300C157BF /* MyCheckout */;
+			targetProxy = 76B084861CDD692300C157BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76B0846D1CDD692300C157BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B0846E1CDD692300C157BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76B084721CDD692300C157BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B084731CDD692300C157BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76B0848C1CDD692300C157BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76B0848D1CDD692300C157BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76B0848F1CDD692300C157BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyCheckout",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MyCheckout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76B084901CDD692300C157BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyCheckout",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MyCheckout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76B084921CDD692300C157BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyCheckoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCheckout.app/MyCheckout";
+			};
+			name = Debug;
+		};
+		76B084931CDD692300C157BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyCheckoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCheckout.app/MyCheckout";
+			};
+			name = Release;
+		};
+		76B084951CDD692300C157BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyCheckoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyCheckout;
+			};
+			name = Debug;
+		};
+		76B084961CDD692300C157BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyCheckoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyCheckout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B084611CDD692300C157BF /* Build configuration list for PBXProject "MyCheckout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B0848C1CDD692300C157BF /* Debug */,
+				76B0848D1CDD692300C157BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B0848E1CDD692300C157BF /* Build configuration list for PBXNativeTarget "MyCheckout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B0848F1CDD692300C157BF /* Debug */,
+				76B084901CDD692300C157BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B084911CDD692300C157BF /* Build configuration list for PBXNativeTarget "MyCheckoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B084921CDD692300C157BF /* Debug */,
+				76B084931CDD692300C157BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B084941CDD692300C157BF /* Build configuration list for PBXNativeTarget "MyCheckoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B084951CDD692300C157BF /* Debug */,
+				76B084961CDD692300C157BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76B0845E1CDD692300C157BF /* Project object */;
+}
