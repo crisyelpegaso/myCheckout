@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MercadoPagoSDK
+//import MercadoPagoSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        MercadoPagoContext.setPublicKey("APP_USR-5a399d42-6015-4f6a-8ff8-dd7d368068f8")
+        //MercadoPagoContext.setPublicKey("APP_USR-5a399d42-6015-4f6a-8ff8-dd7d368068f8")
         return true
     }
 

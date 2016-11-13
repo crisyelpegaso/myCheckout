@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MercadoPagoSDK
+//import MercadoPagoSDK
 
 class ViewController: UIViewController {
 
@@ -26,13 +26,13 @@ class ViewController: UIViewController {
     
     func startMPCheckout(){
         
-        let checkoutFlow = MPFlowBuilder.startCheckoutViewController("lala", callback : { (payment) in
+      /*  let checkoutFlow = MPFlowBuilder.startCheckoutViewController("lala", callback : { (payment) in
             print(payment.toJSONString())
         })
         
         self.present(checkoutFlow, animated: true) {
             
-        }
+        }*/
 
     }
 
