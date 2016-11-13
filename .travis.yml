@@ -1,7 +1,7 @@
 language: objective-c #1
 osx_image: xcode8.1 #2
 xcode_project: MyCheckout.xcodeproj #3
-xcode_scheme: MyCheckoutTests #4
+xcode_scheme: MyCheckout #4
 
 script:
 # tests not working yet
