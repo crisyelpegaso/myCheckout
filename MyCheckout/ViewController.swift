@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MercadoPagoSDK
+//import MercadoPagoSDK
 
 class ViewController: UIViewController {
 
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.startCheckoutButton.addTarget(self, action: #selector(ViewController.startMPCheckout), forControlEvents: .TouchUpInside)
+        // self.startCheckoutButton.addTarget(self, action: #selector(ViewController.startMPCheckout), forControlEvents: .TouchUpInside)
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,13 +26,13 @@ class ViewController: UIViewController {
     
     func startMPCheckout(){
         
-        let checkoutFlow = MPFlowBuilder.startCheckoutViewController("lala") { (payment) in
+      /*  let checkoutFlow = MPFlowBuilder.startCheckoutViewController("lala", callback : { (payment) in
             print(payment.toJSONString())
-        }
+        })
         
-        self.presentViewController(checkoutFlow, animated: true) {
+        self.present(checkoutFlow, animated: true) {
             
-        }
+        }*/
 
     }
 

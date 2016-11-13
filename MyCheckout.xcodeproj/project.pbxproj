@@ -14,7 +14,6 @@
 		76B084741CDD692300C157BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B084721CDD692300C157BF /* LaunchScreen.storyboard */; };
 		76B0847F1CDD692300C157BF /* MyCheckoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0847E1CDD692300C157BF /* MyCheckoutTests.swift */; };
 		76B0848A1CDD692300C157BF /* MyCheckoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B084891CDD692300C157BF /* MyCheckoutUITests.swift */; };
-		76B084D61CDEB0F300C157BF /* MercadoPagoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B084D51CDEB0F300C157BF /* MercadoPagoSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +44,24 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		76C881D41DD7EF2E00BC3F1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		76C881D61DD7EF3A00BC3F1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +78,6 @@
 		76B084851CDD692300C157BF /* MyCheckoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCheckoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B084891CDD692300C157BF /* MyCheckoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCheckoutUITests.swift; sourceTree = "<group>"; };
 		76B0848B1CDD692300C157BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76B084D51CDEB0F300C157BF /* MercadoPagoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MercadoPagoSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B084D61CDEB0F300C157BF /* MercadoPagoSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +108,6 @@
 		76B0845D1CDD692300C157BF = {
 			isa = PBXGroup;
 			children = (
-				76B084D51CDEB0F300C157BF /* MercadoPagoSDK.framework */,
 				76B084681CDD692300C157BF /* MyCheckout */,
 				76B0847D1CDD692300C157BF /* MyCheckoutTests */,
 				76B084881CDD692300C157BF /* MyCheckoutUITests */,
@@ -170,6 +184,7 @@
 				76B084761CDD692300C157BF /* Sources */,
 				76B084771CDD692300C157BF /* Frameworks */,
 				76B084781CDD692300C157BF /* Resources */,
+				76C881D41DD7EF2E00BC3F1B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -188,6 +203,7 @@
 				76B084811CDD692300C157BF /* Sources */,
 				76B084821CDD692300C157BF /* Frameworks */,
 				76B084831CDD692300C157BF /* Resources */,
+				76C881D61DD7EF3A00BC3F1B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -211,13 +227,16 @@
 				TargetAttributes = {
 					76B084651CDD692300C157BF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T9VUHG6RU2;
 					};
 					76B084791CDD692300C157BF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T9VUHG6RU2;
 						TestTargetID = 76B084651CDD692300C157BF;
 					};
 					76B084841CDD692300C157BF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T9VUHG6RU2;
 						TestTargetID = 76B084651CDD692300C157BF;
 					};
 				};
@@ -348,9 +367,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -395,9 +416,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -422,6 +445,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -432,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
@@ -440,6 +465,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
@@ -457,10 +484,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyCheckoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCheckout.app/MyCheckout";
 			};
 			name = Debug;
@@ -469,10 +503,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyCheckoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCheckout.app/MyCheckout";
 			};
 			name = Release;
@@ -480,10 +521,16 @@
 		76B084951CDD692300C157BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyCheckoutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckoutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
 				TEST_TARGET_NAME = MyCheckout;
 			};
 			name = Debug;
@@ -491,10 +538,16 @@
 		76B084961CDD692300C157BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyCheckoutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mercadopago.MyCheckoutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
 				TEST_TARGET_NAME = MyCheckout;
 			};
 			name = Release;
