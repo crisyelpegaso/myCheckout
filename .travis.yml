@@ -5,4 +5,5 @@ xcode_scheme: MyCheckout #4
 
 script:
 # tests not working yet
+- xcodebuild  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO 
 #- runTests.sh
