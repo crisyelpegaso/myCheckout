@@ -1,7 +1,7 @@
 language: swift #1
 osx_image: xcode8.1 #2
 xcode_project: MyCheckout.xcodeproj #3
-xcode_scheme: MyCheckout #4
+xcode_scheme: MyCheckoutTests #4
 
 script:
-  - xcodebuild  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO test -scheme MyCheckout
+  - xcodebuild  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
