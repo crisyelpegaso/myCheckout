@@ -4,4 +4,4 @@ xcode_project: MyCheckout.xcodeproj #3
 xcode_scheme: MyCheckout #4
 
 script:
-  - xcodebuild [DEFAULT_OPTIONS] CODE_SIGNING_REQUIRED=NO
+  - xcodebuild CODE_SIGNING_REQUIRED=NO
