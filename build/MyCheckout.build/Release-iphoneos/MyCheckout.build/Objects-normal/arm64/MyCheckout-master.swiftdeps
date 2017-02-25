@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "355785052589cfb25dd9f344d46febc8"
+build_time: [532319679, 415736000]
+inputs:
+  "/Users/macrodriguez/dev/repositories/myCheckout/MyCheckout/ViewController.swift": [532317775, 0]
+  "/Users/macrodriguez/dev/repositories/myCheckout/MyCheckout/AppDelegate.swift": [532317785, 0]

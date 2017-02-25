@@ -1,0 +1,1 @@
+- xcodebuild  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -project MyCheckout.xcodeproj/ -scheme MyCheckoutTests -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' test
